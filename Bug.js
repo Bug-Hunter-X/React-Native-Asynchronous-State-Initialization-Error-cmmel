@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable before it has been initialized.  This often happens when you have asynchronous operations within your component's lifecycle methods, such as `useEffect` or `componentDidMount`. If the state is not fully initialized before render, it could be null or undefined, which can crash your app.
